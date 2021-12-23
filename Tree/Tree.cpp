@@ -289,7 +289,7 @@ int main()
 	while (1)
 	{
 		cout << "Please input\"start\"" << endl;
-		cout << "When project is running,pressing\"q\"for quit,press any key except 'q' to change lamp mode" << endl;
+		cout << "When project is running,pressing\"q\"for quit, press any key except 'q' to change lamp mode" << endl;
 		string input;
 		while (cin >> input)
 		{
