@@ -288,14 +288,14 @@ int main()
 	system("cls");
 	while (1)
 	{
-		cout << "请输入\"start\"开始程序" << endl;
-		cout << "程序运行后输入\"q键\"停止程序,输入其他任意键更换灯光模式" << endl;
+		cout << "Please input\"start\"" << endl;
+		cout << "When project is running,pressing\"q\"for quit,press any key except 'q' to change lamp mode" << endl;
 		string input;
 		while (cin >> input)
 		{
 			if (input == "start")
 			{
-				cout << "请输入圣诞树宽度(不小于11的数字)" << endl;
+				cout << "Input width of Christmas tree (not less than 11)" << endl;
 				int tree_max_width;
 				while (cin >> tree_max_width)
 				{
@@ -306,16 +306,16 @@ int main()
 					}
 					else
 					{
-						cout << "输入错误！" << endl;
-						cout << "请重新输入圣诞树宽度(不小于11的数字)" << endl;
+						cout << "Error!!!" << endl;
+						cout << "Please input width of Christmas tree (not less than 11)!!!" << endl;
 					}
 				}
 				break;
 			}
 			else
 			{
-				cout << "输入错误！" << endl;
-				cout << "请输入\"start\"开始程序！！！" << endl;
+				cout << "Error!!!" << endl;
+				cout << "Please input\"start\"!!!" << endl;
 			}
 		}
 		system("cls");
